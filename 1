@@ -1,0 +1,20 @@
+class Desk:
+    def __init__(self, name, width, height, material):
+        self.name = name
+        self.width = width
+        self.height = height
+        self.material = material
+
+    def display_info(self):
+        print("Desk Information:")
+        print("Name:", self.name)
+        print("Width:", self.width)
+        print("Height:", self.height)
+        print("Material:", self.material)
+
+
+# Create a desk object
+my_desk = Desk("Office Desk", 120, 75, "Wood")
+
+# Display desk information
+my_desk.display_info()
